@@ -1,0 +1,11 @@
+{
+    "type": "mysql",
+    "host": "nestdb",
+    "port": "3306",
+    "username": "root",
+    "password": "root",
+    "database": "main",
+    "synchronize": true,
+    "logging": true,
+    "entities": ["dist/**/**.entity{.ts,.js}"]
+  }
