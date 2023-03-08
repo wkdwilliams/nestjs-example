@@ -43,11 +43,12 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-Go to http://localhost:8088. Go to database `main` and create a table called `user`. Table should have `id`, `firstName`, `lastName`, `age`
-
-Go to http://localhost:3000/user to get all users
-
-Go to http://localhost:3000/user/1 to get user by id 1
+- Go to http://localhost:8088 and click database `main`
+- Create a table called `user`.
+- Table should have `id`, `firstName`, `lastName`, `age`
+- Create one user record.
+- Go to http://localhost:3000/user to get all users
+- Go to http://localhost:3000/user/1 to get user by id 1
 
 ## Test
 
