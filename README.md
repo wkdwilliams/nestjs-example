@@ -22,10 +22,6 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
 ## Installation
 
 ```bash
@@ -35,6 +31,9 @@ $ npm install
 ## Running the app
 
 ```bash
+# Run the MySQL database & phpmyadmin
+$ docker-composer up -d
+
 # development
 $ npm run start
 
@@ -44,6 +43,9 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+Go to http://localhost:8088. Go to database `main` and create a table called `user`. Table should have `id`, `firstName`, `lastName`, `age`
+Go to http://localhost:3000/user to get all users
+Go to http://localhost:3000/user/1 to get user by id 1
 
 ## Test
 
